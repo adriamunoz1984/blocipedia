@@ -1,0 +1,6 @@
+%p
+  = comment.body
+  - if comment.user
+    %small
+      %em
+        = comment.user.email
